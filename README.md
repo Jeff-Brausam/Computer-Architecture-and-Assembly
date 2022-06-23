@@ -5,12 +5,12 @@ These are my notes from my computer architecture and assembly class.
 ## General
 Abstraction level structure of a computer system (some don’t have level 2): <br />
 7 Application level (games, apps, ect) <br />
-6 High-order language level (programming languages) <br />
+6 High-order language level (programming languages, C++, Python, etc.) <br />
 5 Assembly level <br />
 4 Operating System level <br />
 3 Instruction set architecture level <br />
 2 Microcode level (I think binary is here or level 3?) <br />
-1 Logic Gate level (hardware electrical pulses, +3v for 1 (on), 0v for 0 (off) <br />
+1 Logic Gate level (hardware electrical pulses, +3v for 1 (on), 0v for 0 (off)) <br />
 
 *Hardware* - Physical components of your computer. <br />
 *Software* - A set of programs that instructs and modifies hardware. <br />
