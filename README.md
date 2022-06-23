@@ -72,7 +72,8 @@ A rule of thumb when solving a problem:
   * Lastly, test your solution. 
 
 ### Space and Time
-Computers store and process information in the form of electrical signals. Each signal is either a high voltage level, represented by the digit 1, or a low level, represented by the digit 0. Because there are only two possible values for each signal, it is called a binary digit, or bit. A bit is the smallest unit of digital information. <br />
+Computers store and process information in the form of electrical signals. Each signal is either a high voltage level, represented by the digit 1, or a low level, represented by the digit 0. Because there are only two possible values for each signal, it is called a binary digit, or bit. <br />
+A *bit* is the smallest unit of digital information. <br />
 Different parts of the computer system can have bit sequences with different lengths. In CPU registers, there are usually 32 or 64 bits. In main memory, it is always a sequence of 8 bits. <br />
 A sequence of 8 bits is called a byte. On all computer systems, each memory cell in main memory is one byte. <br />
 
