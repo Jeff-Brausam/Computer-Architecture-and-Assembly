@@ -149,7 +149,7 @@ If else statements and loops can take in conditions. Those conditions control th
    | operator     | meaning            |
 | ------------ | --------------- |
 | &&       | AND        |
-| ||     | OR     |
+| \||     | OR     |
 | ! | NOT |
 
 Switch statements are like if statements. 
