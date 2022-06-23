@@ -23,7 +23,7 @@ The three activities of a program are **input > processing > output**.
 In software design, you are given an input (a problem), you must then process it (come up with a solution), and have an output (a solved solution.)
 Another example of it in a program, you hit a keyboard key, the cpu then processes it, and communicates with RAM and such to figure out that key, then it is displayed (output) to your monitor. 
 
-*Algorithm* - A set of instructions, that when carried out in the proper sequence, solves a problem in a finite amount of time
+*Algorithm* - A set of instructions, that when carried out in the proper sequence, solves a problem in a finite amount of time.
 *Program* - an Algorithm written for execution on a computer. They can’t be written in English. They must be in a language for one of the seven levels of a computer.
 *Software* - A program that controls the computer. There are two types of software: Systems software and Applications Software. 
 System Software allows the computer to be accessible to application designers. Application software makes a computer system to be accessible to end users (general people).
