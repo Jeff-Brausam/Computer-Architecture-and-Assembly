@@ -77,12 +77,12 @@ A rule of thumb when solving a problem:
 Computers store and process information in the form of electrical signals. Each signal is either a high voltage level, represented by the digit 1, or a low level, represented by the digit 0. Because there are only two possible values for each signal, it is called a binary digit, or bit. <br />
 A *bit* is the smallest unit of digital information. <br />
 Different parts of the computer system can have bit sequences with different lengths. In CPU registers, there are usually 32 or 64 bits. In main memory, it is always a sequence of 8 bits. <br />
-A sequence of 8 bits is called a byte. On all computer systems, each memory cell in main memory is one byte. <br />
+A sequence of 8 bits is called a *byte*. On all computer systems, each memory cell in main memory is one byte. <br />
 
 Like how things take up storage (space) there is also the concept of time. The CPU is responsible for this. This is measured in GHz or gigaherz, a unit of frequency. A hertz is one cycle per second, so these can cycle billions of cycles per second. <br />
 
 Another concept of time is moving information from one computer component in the system to another. These are through channels, which can be wires in a system bus in a computer, or between cell phone towers. <br />
-Bandwidth is the quantity of information that can be carried per unit of time. <br />
+*Bandwidth* is the quantity of information that can be carried per unit of time. <br />
 
 ### Database Systems
 *Database* - A collection of files that contain interrelated information. <br />
