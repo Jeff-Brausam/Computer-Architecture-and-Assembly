@@ -1,6 +1,6 @@
 # Computer-Architecture-and-Assembly
 These are my notes from my computer architecture and assembly class.
-
+<pre>
 ## Chapter 1 Application Level
 ## General
 Abstraction level structure of a computer system (some don’t have level 2): 
@@ -87,3 +87,4 @@ Bandwidth is the quantity of information that can be carried per unit of time.
 *Query* - a request for information, usually in parts of the database. 
 There are many types of databases, for inventory of a store, banks, etc. 
 *Relational database systems* - store information in files that appear to have a table structure. That is a structure with a fixed number of columns and a variable number of rows. 
+</pre>
