@@ -182,12 +182,30 @@ The program uses this return address to know which statement to execute next in 
 In contrast to void functions, nonboid control returns from the function to the calling statement. Void ones return to the statement following the calling statement. 
 
 ### Call by reference
-If you have the intent to change the value of the actual parameter in the calling program, then call by reference is used instead. The formal parameter gets a reference to the actual parameter. If the procedure changes the value, the corresponding parameter in the calling program changes. To specify a parameter is called by reference, you pass the address of the actual parameter with the address operator. <br />
-& is the address operator. You would type something like int &x <br />
+If you have the intent to change the value of the actual parameter in the calling program, then call by reference is used instead. The formal parameter gets a reference to the actual parameter. If the procedure changes the value, the corresponding parameter in the calling program changes. To specify a parameter is called by reference, you pass the address of the actual parameter with the *address operator*. <br />
+& is the *address operator*. You would type something like int &x <br />
 It can also be used to get the memory address of a variable; which is the location of where the variable is stored on the computer. <br />
 
 The corresponding formal parameter is a pointer, and in C use must use a * like above with the & operator. 
 
-A pointer however, is a variable that stores the memory address as its value.
+A *pointer* however, is a variable that *stores the memory address* as its value.
 
 Struct is an what an object would be in C++. They are a key to data abstraction in C++. You can consolidate different types inside of an struct, whereas an array can only take one type. You first need to create a struct, then “construct” it. 
+   
+## Chapter 3 Instruction Set Architecture Level
+The CPU reads information from memory, and writes information into memory. The information is divided into words. Some computer systems have large sets of words, from a few hundred to few thousand, grouped into pages. 
+
+### Binary Storage
+Electronic computers **cannot store numbers and letters directly**. They can **only store electrical signals**. When CPU reads information from memory, it detects a signal whose voltage is equal to that produced by two flashlight batteries (3v).
+
+Computer memories are designed with this property. Each location contains either a high-voltage signal (1) or a low voltage signal (0) and nothing inbetween. 
+
+*Binary* means that only two values are possible in digital computers. This is also known as counting in Base 2. < br/>
+*Base 10* is decimal, also known as the way we count as humans. < br/>
+Each individual storage unit is called a *binary digit* or *bit*. A bit can only be 1 or 0. < br/>
+Bits in a computer system are grouped together in cells. You can think of a cell as a group of boxes, containing a 1 or 0, and nothing else. < br/>
+An eight bit cell is called a *byte*. < br/>
+Practically all computers today have eight bits per cell in their main memories and disks. < br/>
+
+Information such as numbers and letters must be represented in binary form to be stored in memory. < br/>
+The representation scheme used to store information is called a *code*.
