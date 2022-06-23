@@ -31,8 +31,10 @@ System Software allows the computer to be accessible to application designers. A
 ### CPU
 CPU has a small set of memory called registers, the typical number is from 16-64 slots. <br />
 CPU has a set of instructions wired into its circuitry. It can do things like, fetch information from the main memory into a register, add, subtract, compare, store information from a register into memory, etc. <br />
-In a program like j = i + 1 in a programming language (like Java or C), the program runs like this: <br />
-First fetch the value of i from memory into a CPU register. (Flows from the storage cell in memory, to the system bus, into the register). Second add 1 to the value in the register (Happens entirely in CPU). Third, store the incremented value into memory. <br />
+In a program like j = i + 1 in a programming language (like Java or C), the program runs like this:
+* First fetch the value of i from memory into a CPU register. (Flows from the storage cell in memory, to the system bus, into the register). 
+* Second add 1 to the value in the register (Happens entirely in CPU). 
+* Third, store the incremented value into memory. <br />
 
 ### Main Memory
 Main Memory (or RAM) has a set of memory cells to store information (like CPU in a way). It differs by having a far greater number of cells. They can have billions of cells. <br />
