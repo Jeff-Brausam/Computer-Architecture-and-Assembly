@@ -3,9 +3,9 @@ These are my notes from my computer architecture and assembly class.
 
 ## Chapter 1 Application Level
 ## General
-Abstraction level structure of a computer system (some don’t have level 2): &nbsp; 
-7 Application level (games, apps, ect) &nbsp;
-6 High-order language level (programming languages) &nbsp;
+Abstraction level structure of a computer system (some don’t have level 2): <br />
+7 Application level (games, apps, ect) <br />
+6 High-order language level (programming languages) <br />
 5 Assembly level &nbsp;
 4 Operating System level &nbsp;
 3 Instruction set architecture level &nbsp;
