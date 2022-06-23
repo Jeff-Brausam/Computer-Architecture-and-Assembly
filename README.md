@@ -137,16 +137,20 @@ Integers = whole numbers. Floating point = decimals. <br />
 If else statements and loops can take in conditions. Those conditions control the flow of the pogram. Ways to compare or designate that control are with operators. <br />
 
 ### Relational operators
-== equal to 
-< Less than
-<= Less than or equal to 
-> Greater than
->= Greater than or equal to
-!= Not equal to. 
-Boolean operations
-&& AND 
-|| OR
-! NOT
+   | operator     | meaning            |
+| ------------ | --------------- |
+| ==        | equal to        |
+| <    | less than     |
+| > | greater than |
+| >=         | greater than or equal to          |
+| !=        | not equal to       |
+
+### Boolean operations
+   | operator     | meaning            |
+| ------------ | --------------- |
+| &&       | AND        |
+| ||    | OR     |
+| ! | NOT |
 
 Switch statements are like if statements. 
 
