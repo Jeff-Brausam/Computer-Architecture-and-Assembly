@@ -200,12 +200,12 @@ Electronic computers **cannot store numbers and letters directly**. They can **o
 
 Computer memories are designed with this property. Each location contains either a high-voltage signal (1) or a low voltage signal (0) and nothing inbetween. 
 
-*Binary* means that only two values are possible in digital computers. This is also known as counting in Base 2. < br/>
-*Base 10* is decimal, also known as the way we count as humans. < br/>
-Each individual storage unit is called a *binary digit* or *bit*. A bit can only be 1 or 0. < br/>
-Bits in a computer system are grouped together in cells. You can think of a cell as a group of boxes, containing a 1 or 0, and nothing else. < br/>
-An eight bit cell is called a *byte*. < br/>
-Practically all computers today have eight bits per cell in their main memories and disks. < br/>
+*Binary* means that only two values are possible in digital computers. This is also known as counting in Base 2. <br />
+*Base 10* is decimal, also known as the way we count as humans. <br />
+Each individual storage unit is called a *binary digit* or *bit*. A bit can only be 1 or 0. <br />
+Bits in a computer system are grouped together in cells. You can think of a cell as a group of boxes, containing a 1 or 0, and nothing else. <br />
+An eight bit cell is called a *byte*. <br />
+Practically all computers today have eight bits per cell in their main memories and disks. <br />
 
-Information such as numbers and letters must be represented in binary form to be stored in memory. < br/>
+Information such as numbers and letters must be represented in binary form to be stored in memory. <br />
 The representation scheme used to store information is called a *code*.
