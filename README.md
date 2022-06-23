@@ -126,17 +126,17 @@ A standard convention is that if a program returns 0, it indicates that there ar
 ### Assignment
 The = is the assignment operator. You can assign values and other things just like in other programming languages like this. 
 
-Variables
-Constants are variables that cannot change. You assign it by const <type> <name> = <value>
-Like const int bonus = 10;
-Global variables are allocated at a fixed position in main memory. 
+### Variables
+Constants are variables that cannot change. You assign it by const <type> <name> = <value> <br />
+Like const int bonus = 10; <br />
+Global variables are allocated at a fixed position in main memory. <br />
 Local variables are allocated on the run-time stack. In C, local variables are declared within the main program. 
-Integers = whole numbers. Floating point = decimals.
+Integers = whole numbers. Floating point = decimals. <br />
 
-Flow of Control
-If else statements and loops can take in conditions. Those conditions control the flow of the pogram. Ways to compare or designate that control are with operators. 
+### Flow of Control
+If else statements and loops can take in conditions. Those conditions control the flow of the pogram. Ways to compare or designate that control are with operators. <br />
 
-Relational operators
+### Relational operators
 == equal to 
 < Less than
 <= Less than or equal to 
@@ -148,46 +148,46 @@ Boolean operations
 || OR
 ! NOT
 
-Switch statements are like if else statements. 
+Switch statements are like if statements. 
 
-While loop
+### While loop
 The while loop checks if a condition is true, then runs until the condition is false.
 Do while loop
 A do while loop is like a while loop, except it runs a statement first, then checks if a condition is still true after. 
 
-Arrays
+### Arrays
 Arrays are declared with brackets. The number inside of the bracket specifies how many elements will be allocated inside of an array. int myArray[4] allocates an array with the variable name myArray with 4 spaces. 
 
-Functions
+### Functions
 In C there are two kinds of functions, those that return void (nothing), and those that return some other type. 
 
-Call by value functions 
+### Call by value functions 
 Call by value means you are returning a value from a function (or it is void)
 
 Allocation (in memory) takes place on the run-time stack in the following order when you call a void function:
-Push the actual parameters
-Push the return address 
-Push storage for local variables
+* Push the actual parameters
+* Push the return address 
+* Push storage for local variables
 
-A formal parameter is the parameter in the function declaration
+A formal parameter is the parameter in the function declaration. <br />
 An actual parameter is the parameter in the function call. 
 
 To deallocate from the stack, the program:
-Pops the local variables 
-Returns the return address and use it to determine the next instruction to execute
-Pop the parameters
+* Pops the local variables 
+* Returns the return address and use it to determine the next instruction to execute
+* Pop the parameters
 
 The program uses this return address to know which statement to execute next in the main program after executing the last statement of the void function. 
 
 In contrast to void functions, nonboid control returns from the function to the calling statement. Void ones return to the statement following the calling statement. 
 
-Call by reference
-If you have the intent to change the value of the actual parameter in the calling program, then call by reference is used instead. The formal parameter gets a reference to the actual parameter. If the procedure changes the value, the corresponding parameter in the calling program changes. To specify a parameter is called by reference, you pass the address of the actual parameter with the address operator.
-& is the address operator. You would type something like int &x;
-It can also be used to get the memory address of a variable; which is the location of where the variable is stored on the computer.
+### Call by reference
+If you have the intent to change the value of the actual parameter in the calling program, then call by reference is used instead. The formal parameter gets a reference to the actual parameter. If the procedure changes the value, the corresponding parameter in the calling program changes. To specify a parameter is called by reference, you pass the address of the actual parameter with the address operator. <br />
+& is the address operator. You would type something like int &x <br />
+It can also be used to get the memory address of a variable; which is the location of where the variable is stored on the computer. <br />
 
 The corresponding formal parameter is a pointer, and in C use must use a * like above with the & operator. 
 
 A pointer however, is a variable that stores the memory address as its value.
 
-struct is an what an object would be in C++. They are a key to data abstraction in C++. You can consolidate different types inside of an struct, whereas an array can only take one type. You first need to create a struct, then “construct” it. 
+Struct is an what an object would be in C++. They are a key to data abstraction in C++. You can consolidate different types inside of an struct, whereas an array can only take one type. You first need to create a struct, then “construct” it. 
